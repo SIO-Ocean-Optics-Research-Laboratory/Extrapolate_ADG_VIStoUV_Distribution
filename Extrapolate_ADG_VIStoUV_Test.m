@@ -236,17 +236,17 @@ ad = [0.0397546087688120 0.0394517909845550	0.0391550533752260...
 lambda = (400:700)';
 
 %input ADG extension correction LUT
-load 'adg_cor_LUT.mat'
+load 'ADG_cor_LUT.mat'
 
 %extend ag, ad, and adg spectra using extension model
-[lamout,agout,adout,adgout] = Extrapolate_ADG_VIStoUV(lambda,ag,ad,adg_cor_LUT);
+[lambda_out,agout,adout,adgout] = Extrapolate_ADG_VIStoUV(lambda,ag,ad,adg_cor_LUT);
 
 %save inputs and outputs into an excel file
 T1 = table(lambda,ag,ad);
-T2 = table(lamout,agout,adout,adgout);
+T2 = table(lambda_out,agout,adout,adgout);
 T1.Properties.VariableNames = {'Input Wavelength [nm]','Input ag [1/m]','Input ad [1/m]'};
 T2.Properties.VariableNames = {'Output Wavelength [nm]','Output ag [1/m]','Output ad [1/m]','Output adg [1/m]'};
 FormatOut = 'yyyymmdd';
-outfile = [cd '\ADG_ext_test_run_' datestr(datetime,FormatOut)];
+outfile = ['Extrapolate_ADG_VIStoUV_Test_Run_' datestr(datetime,FormatOut)];
 writetable(T1,outfile,'FileType','spreadsheet','Sheet','ADG_ext_Input')
 writetable(T2,outfile,'FileType','spreadsheet','Sheet','ADG_ext_Output')
