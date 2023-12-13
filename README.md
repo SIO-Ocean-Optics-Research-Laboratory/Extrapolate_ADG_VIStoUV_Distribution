@@ -22,7 +22,7 @@ Microsoft Excel spreadsheet containing the input and resulting output data obtai
 ---
 
 Contributors: Matthew Kehrli, Dariusz Stramski, Rick A. Reynolds, and Ishan Joshi\
-Contacts: Matthew Kehrli (mdkehrli@ucsd.edu | mdkehrli@gmail.com), Dariusz Stramski (dstramski@ucsd.edu), Rick Reynolds(rreynolds@ucsd.edu), Ishan Joshi(dstramski@ucsd.edu)\
+Contacts: Matthew Kehrli (mdkehrli@ucsd.edu | mdkehrli@gmail.com), Dariusz Stramski (dstramski@ucsd.edu), Rick Reynolds(rreynolds@ucsd.edu), Ishan Joshi(isjoshi@ucsd.edu)\
 Ocean Optics Research Laboratory, Scripps Institution of Oceanography, University of California San Diego
 
 ---
