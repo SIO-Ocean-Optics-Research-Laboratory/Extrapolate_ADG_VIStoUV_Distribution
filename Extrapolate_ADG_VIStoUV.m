@@ -56,8 +56,13 @@ function [lambda_out,agout,adout,adgout] = Extrapolate_ADG_VIStoUV(lambda,ag,ad,
 %   The output spectrum of adg spans from 350 to 399 nm with a 1 nm
 %   spectral interval.
 %
-%Version history: 2023-11-09: Extrapolate_ADG_VIStoUV.m, Final revised
-%Matlab version, M. D. Kehrli, D. Stramski, R. A. Reynolds, I. D. Joshi
+%Version 1.0 (v1.0)
+%
+%Version history: 
+%2023-11-09: Revised ADG extrapolation model and Matlab version, M. D.
+%Kehrli, D. Stramski, R. A. Reynolds, I. D. Joshi.
+%202X-XX-XX: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
+%R. A. Reynolds, and I. D. Joshi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %check input arguments
