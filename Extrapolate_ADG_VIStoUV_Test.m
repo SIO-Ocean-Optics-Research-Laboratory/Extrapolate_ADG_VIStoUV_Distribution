@@ -1,9 +1,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Test script for the ADG extrapolation model code. The ADG ext code is run
-%for one specified input of ag and adg at specified hyperspectral
-%wavelengths (lambda). The resulting output from the test script is saved
-%to ADG_ext_test_run_yyyymmdd.xls for comparison with the provided output
-%file ADG_ext_test_run.xls.
+%Test script for the ADG extrapolation model code called
+%"Extrapolate_ADG_VIStoUV”. The Extrapolate_ADG_VIStoUV code is run for one
+%specified input of ag and adg at specified hyperspectral wavelengths
+%(lambda). The resulting output from the test script is saved to
+%Extrapolate_ADG_VIStoUV_Test_Run_yyyymmdd.xls for comparison with the
+%provided output file Extrapolate_ADG_VIStoUV_Test_Run.xls.
 %
 %Reference:
 %
@@ -14,7 +15,7 @@
 %17450. https://doi.org/10.1364/OE.486354
 %
 %Created: July 24, 2023
-%Completed: July 31, 2023
+%Completed: 202X-XX-XX
 %Updates:
 %
 %M. D. Kehrli, D. Stramski, R. A. Reynolds, and I. D. Joshi
