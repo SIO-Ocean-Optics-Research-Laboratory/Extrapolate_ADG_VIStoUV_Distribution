@@ -1,7 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Test script for the ADG extrapolation model code called
 %"Extrapolate_ADG_VIStoUV”. The Extrapolate_ADG_VIStoUV code is run for one
-%specified input of ag and adg at specified hyperspectral wavelengths
+%specified input of ag and ad at specified hyperspectral wavelengths
 %(lambda). The resulting output from the test script is saved to
 %Extrapolate_ADG_VIStoUV_Test_Run_yyyymmdd.xls for comparison with the
 %provided output file Extrapolate_ADG_VIStoUV_Test_Run.xls.
