@@ -15,7 +15,7 @@
 %17450. https://doi.org/10.1364/OE.486354
 %
 %Created: July 24, 2023
-%Completed: 202X-XX-XX
+%Completed: 2024-02-07
 %Updates:
 %
 %M. D. Kehrli, D. Stramski, R. A. Reynolds, and I. D. Joshi
