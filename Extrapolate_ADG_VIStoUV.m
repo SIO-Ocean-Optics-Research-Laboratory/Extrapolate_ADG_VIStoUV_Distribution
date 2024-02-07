@@ -61,7 +61,7 @@ function [lambda_out,agout,adout,adgout] = Extrapolate_ADG_VIStoUV(lambda,ag,ad,
 %Version history: 
 %2023-11-09: Revised ADG extrapolation model and Matlab version, M. D.
 %Kehrli, D. Stramski, R. A. Reynolds, I. D. Joshi.
-%202X-XX-XX: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
+%2024-02-07: Final revised MATLAB version (v1.0), M. Kehrli, D. Stramski,
 %R. A. Reynolds, and I. D. Joshi
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
